@@ -1,4 +1,4 @@
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 __pycache__/
@@ -21,6 +21,11 @@ coverage.xml
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
 
 # Project specific
 .uv/

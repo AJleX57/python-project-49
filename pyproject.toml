@@ -1,0 +1,19 @@
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Brain Games package"
+authors = [
+    { name = "Your Name", email = "your@email.com" },
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["brain_games"]
+
+[project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
