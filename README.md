@@ -11,3 +11,21 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=AJLeX57_python-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=AJLeX57_python-project-49)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=AJLeX57_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=AJLeX57_python-project-49)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=AJLeX57_python-project-49&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=AJLeX57_python-project-49)
+
+## Demo
+
+### Brain Even Game
+
+<script id="asciicast-XXXXX" src="https://asciinema.org/a/yRUdHuIl2SYJ9XhjbHTYOQlfM" async></script>
+
+## Installation
+
+```bash
+make install
+```
+
+## Usage
+
+```bash
+brain-even
+```
