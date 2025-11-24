@@ -10,7 +10,7 @@ A collection of math games for brain training.
 
 ## Demo
 
-<script id="asciicast-3rrZ2s4PSwvBwNXim9KK3cLc3" src="https://asciinema.org/a/3rrZ2s4PSwvBwNXim9KK3cLc3" async></script>
+<script id="asciicast-3rrZ2s4PSwvBwNXim9KK3cLc3" src="https://asciinema.org/a/3rrZ2s4PSwvBwNXim9KK3cLc3.js" async></script>
 
 ## Requirements
 
