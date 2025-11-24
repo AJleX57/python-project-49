@@ -8,5 +8,5 @@ def is_even(number):
 def generate_even_question():
     number = random.randint(1, 100)
     question = str(number)
-    correct_answer = 'yes' if is_even(number) else 'no'
+    correct_answer = "yes" if is_even(number) else "no"
     return question, correct_answer
