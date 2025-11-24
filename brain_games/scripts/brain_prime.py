@@ -3,7 +3,7 @@ from brain_games.games.prime import generate_prime_question
 
 
 def main():
-    description = 'What is the result of the expression?'
+    description = '"yes" if given number is prime. Otherwise answer "no".'
     run_game(description, generate_prime_question)
     
 
