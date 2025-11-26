@@ -1,4 +1,4 @@
-name: Build and Test
+name: Build and SonarCloud Analysis
 
 on:
   push:
@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
     - uses: actions/checkout@v4
       with:
@@ -41,8 +42,3 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      with:
-        args: >
-          -Dsonar.organization=ajlex57
-          -Dsonar.projectKey=AJLeX57_python-project-49
-          -Dsonar.python.coverage.reportPaths=coverage.xml
