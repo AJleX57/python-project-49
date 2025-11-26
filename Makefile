@@ -1,17 +1,8 @@
-install:
-	uv sync
+test:
+	uv run pytest
 
-brain-games:
-	uv run brain-games
-
-build:
-	uv build
-
-package-install:
-	uv tool install dist/*.whl
-
-reinstall: build
-	uv tool install --force dist/*.whl
+test-coverage:
+	uv run pytest --cov=brain_games --cov-report=xml
 
 lint:
 	uv run ruff check brain_games
@@ -19,4 +10,17 @@ lint:
 format:
 	uv run ruff format brain_games
 
-check: lint
+install:
+	uv sync
+
+build:
+	uv build
+
+brain-games:
+	uv run brain-games
+
+package-install:
+	uv tool install dist/*.whl
+
+reinstall: build
+	uv tool install --force dist/*.whl
